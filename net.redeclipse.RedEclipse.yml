@@ -18,10 +18,9 @@ modules:
     no-autogen: true
     no-make-install: true
     build-options:
-      cflags: ''
-      cflags-override: true
-      cxxflags: ''
-      cxxflags-override: true
+      env:
+        CFLAGS: ''
+        CXXFLAGS: ''
     subdir: src
     sources:
       - type: git
