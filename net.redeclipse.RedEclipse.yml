@@ -18,9 +18,9 @@ modules:
     no-autogen: true
     no-make-install: true
     build-options:
-      cflags: -O3 -fomit-frame-pointer
+      cflags: ''
       cflags-override: true
-      cxxflags: -O3 -fomit-frame-pointer -ffast-math -fno-finite-math-only
+      cxxflags: ''
       cxxflags-override: true
     subdir: src
     sources:
